@@ -1,0 +1,19 @@
+.card {
+    display: grid;
+    grid-template-columns: minmax(200px, 400px);
+    grid-template-rows: minmax(200px, 400px) 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-text {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
