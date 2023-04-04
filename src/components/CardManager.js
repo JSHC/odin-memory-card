@@ -8,15 +8,21 @@ const CardManager = (props) => {
     useEffect(() => {
         setCards(props.cards);
     }, [])
+
+    const onCardClick = (id) => {
+        console.log('click' + id);
+    }
     return (
         <div className="card-manager">
             {cards.map((card) => {
                 return (
                     <Card 
-                    key={card.image}
+                    id={card.id}
+                    key={card.id}
                     image={card.image}
                     alt={card.alt}
                     text={card.text}
+                    onClick={onCardClick}
                     />
                 )
             })}

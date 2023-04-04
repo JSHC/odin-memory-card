@@ -13,7 +13,7 @@ const Card = (props) => {
     }, []);
 
     return (
-        <div className="card" onClick={props.onClick}>
+        <div className="card" onClick={() => props.onClick(props.id)}>
             {imageLoaded ? 
                 <img className="card-image" src={props.image} alt={props.alt}></img>
             :
