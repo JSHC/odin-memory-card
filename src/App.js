@@ -36,10 +36,11 @@ function App() {
     {
       id: 8, image: cat8, alt: 'cat8', text: 'Cat 8'
     },
-    
   ];
+
   return (
     <div className="App">
+      <h1>Memory Card</h1>
       <CardManager cards={cards} />
     </div>
   );
