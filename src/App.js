@@ -9,6 +9,7 @@ import cat6 from './images/timo-volz-mrTydVjg04o-unsplash.jpg'
 import cat7 from './images/sajad-nori-s1puI2BWQzQ-unsplash.jpg'
 import cat8 from './images/linli-xu-C26VKA9BMYQ-unsplash.jpg'
 import { useState } from 'react';
+import Score from './components/Score';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
   ];
 
   const [currentScore, setCurrentScore] = useState(0);
+  const [highScore, setHighScore] = useState(0);
 
   const onCardClick = (id) => {
     setCurrentScore(currentScore + 1);
@@ -48,6 +50,7 @@ function App() {
   return (
     <div className="App">
       <h1>Memory Card</h1>
+      <Score currentScore={currentScore} highScore={highScore} />
       <CardManager 
         cards={cards} 
         onCardClick={onCardClick}
