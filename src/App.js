@@ -8,6 +8,7 @@ import cat5 from './images/mathieu-odin-YeQIAysCP3w-unsplash.jpg'
 import cat6 from './images/timo-volz-mrTydVjg04o-unsplash.jpg'
 import cat7 from './images/sajad-nori-s1puI2BWQzQ-unsplash.jpg'
 import cat8 from './images/linli-xu-C26VKA9BMYQ-unsplash.jpg'
+import { useState } from 'react';
 
 
 function App() {
@@ -38,10 +39,19 @@ function App() {
     },
   ];
 
+  const [currentScore, setCurrentScore] = useState(0);
+
+  const onCardClick = (id) => {
+    setCurrentScore(currentScore + 1);
+  }
+
   return (
     <div className="App">
       <h1>Memory Card</h1>
-      <CardManager cards={cards} />
+      <CardManager 
+        cards={cards} 
+        onCardClick={onCardClick}
+        />
     </div>
   );
 }
