@@ -6,7 +6,9 @@ const CardManager = (props) => {
     const [cards, setCards] = useState([]);
 
     const onCardClick = (id) => {
-        console.log('click' + id);
+        if (props.onCardClick) {
+            props.onCardClick(id);
+        }
         setCards(getCardsRandom());
     }
 
