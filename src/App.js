@@ -42,6 +42,7 @@ function App() {
 
   const [currentScore, setCurrentScore] = useState(0);
   const [highScore, setHighScore] = useState(0);
+  const [cardIdsClicked, setCardIdsClicked] = useState([]);
 
   const onCardClick = (id) => {
     setCurrentScore(currentScore + 1);
