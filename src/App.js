@@ -45,7 +45,16 @@ function App() {
   const [cardIdsClicked, setCardIdsClicked] = useState([]);
 
   const onCardClick = (id) => {
-    setCurrentScore(currentScore + 1);
+    if (cardIdsClicked.includes(id)) {
+      if (currentScore > highScore) {
+        setHighScore(currentScore);
+      }
+      setCurrentScore(0);
+      setCardIdsClicked([]);
+    } else {
+      setCardIdsClicked([...cardIdsClicked, id]);
+      setCurrentScore(currentScore + 1);
+    }
   }
 
   return (
