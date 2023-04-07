@@ -1,9 +1,12 @@
 .card {
     display: grid;
-    grid-template-columns: minmax(200px, 400px);
-    grid-template-rows: minmax(200px, 400px) 1rem;
+    grid-template-rows: 1fr .2fr;
     justify-items: center;
     align-items: center;
+    background-color: rgb(121, 151, 193);
+    box-sizing: border-box;
+    border: 8px solid rgb(101, 116, 137);
+    padding: .8rem;
 }
 
 .card-image {
