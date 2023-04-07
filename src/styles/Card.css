@@ -16,4 +16,11 @@
     display: grid;
     align-items: center;
     justify-items: center;
+    background-color: rgb(230, 247, 255);
+    justify-self: stretch;
+    padding: .8rem 0;
+    border-radius: 10px;
+    margin-top: .5rem;
+    box-sizing: border-box;
+    border: 2px solid rgb(175, 195, 222);
 }
