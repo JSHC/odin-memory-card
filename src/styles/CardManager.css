@@ -1,7 +1,9 @@
 .card-manager {
     display: grid;
     grid-template-columns: repeat(4, minmax(250px, 1fr));
+    grid-template-rows: repeat(2, 25%);
     justify-items: center;
     gap: 15px;
     grid-column: 1 / span 3;
+    margin: 0 1.5rem;
 }
