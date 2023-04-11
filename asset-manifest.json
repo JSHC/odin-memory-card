@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/odin-memory-card/static/css/main.643f88f7.css",
+    "main.js": "/odin-memory-card/static/js/main.2fe769ba.js",
+    "static/media/timo-volz-mrTydVjg04o-unsplash.jpg": "/odin-memory-card/static/media/timo-volz-mrTydVjg04o-unsplash.91239eb59af55a5d56dc.jpg",
+    "static/media/amber-kipp-75715CVEJhI-unsplash.jpg": "/odin-memory-card/static/media/amber-kipp-75715CVEJhI-unsplash.c8251ade63f8fdf84287.jpg",
+    "static/media/sajad-nori-s1puI2BWQzQ-unsplash.jpg": "/odin-memory-card/static/media/sajad-nori-s1puI2BWQzQ-unsplash.25c595db87422104502c.jpg",
+    "static/media/zoe-gayah-jonker-uhnbTZC7N9k-unsplash.jpg": "/odin-memory-card/static/media/zoe-gayah-jonker-uhnbTZC7N9k-unsplash.f8061619ecb6e07fa131.jpg",
+    "static/media/milada-vigerova-7E9qvMOsZEM-unsplash.jpg": "/odin-memory-card/static/media/milada-vigerova-7E9qvMOsZEM-unsplash.37473e5a118380e64e4b.jpg",
+    "static/media/linli-xu-C26VKA9BMYQ-unsplash.jpg": "/odin-memory-card/static/media/linli-xu-C26VKA9BMYQ-unsplash.b39be35edff006cebd19.jpg",
+    "static/media/mathieu-odin-YeQIAysCP3w-unsplash.jpg": "/odin-memory-card/static/media/mathieu-odin-YeQIAysCP3w-unsplash.68e95c9b71a566624e98.jpg",
+    "static/media/hang-niu-Tn8DLxwuDMA-unsplash.jpg": "/odin-memory-card/static/media/hang-niu-Tn8DLxwuDMA-unsplash.4da2aa49574f408350a6.jpg",
+    "index.html": "/odin-memory-card/index.html",
+    "main.643f88f7.css.map": "/odin-memory-card/static/css/main.643f88f7.css.map",
+    "main.2fe769ba.js.map": "/odin-memory-card/static/js/main.2fe769ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.643f88f7.css",
+    "static/js/main.2fe769ba.js"
+  ]
+}
