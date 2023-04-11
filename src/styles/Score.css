@@ -1,4 +1,18 @@
 .score {
     display: grid;
     align-self: center;
+    background-color: rgb(121, 151, 193);
+    padding: .5rem;
+    border: 3px solid rgb(101, 116, 137);
+    margin: 1rem 0;
+    justify-self: end;
+    margin-right: 4rem;
+}
+
+.score-text {
+    display: grid;
+    background-color: rgb(230, 247, 255);
+    padding: .8rem 2rem;
+    border-radius: 10px;
+    border: 2px solid rgb(175, 195, 222);
 }
