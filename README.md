@@ -12,5 +12,5 @@ Images from [Unsplash](https://unsplash.com) by:
 [Milada Vigerova](https://unsplash.com/@milada_vigerova)  
 [Nabih E. Navarro](https://unsplash.com/@nabxnav)  
 [Sajad Nori](https://unsplash.com/@sajadnori)  
-[Timo Volz](https://unsplash.com/@magict1911)
+[Timo Volz](https://unsplash.com/@magict1911)  
 [Zoë Gayah Jonker](https://unsplash.com/@zoegayah)
